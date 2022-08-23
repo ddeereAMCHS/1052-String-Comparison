@@ -1,4 +1,4 @@
-# StringComparison
+# String Comparison
 
 ## Due: DoW MM/DD at 11:59 PM
 
