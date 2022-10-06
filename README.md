@@ -1,6 +1,6 @@
 # String Comparison
 
-## Due: DoW MM/DD at 11:59 PM
+## Due: Fri 10/14 at 11:59 PM
 
 - Create a program called `StringComparison.java`
 - Prompt the user for a word
