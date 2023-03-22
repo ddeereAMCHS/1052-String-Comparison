@@ -7,7 +7,7 @@
       "input": "cat\r\ndog\r\nmouse",
       "output": "cat, dog, mouse",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": null
     },
     {
@@ -17,7 +17,7 @@
       "input": "cat\r\ncatatonic\r\ncatastrophe",
       "output": "cat, catastrophe, catatonic",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": null
     },
     {
@@ -27,7 +27,7 @@
       "input": "cat\r\ndog\r\ncat",
       "output": "cat, cat, dog",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": null
     },
     {
@@ -37,7 +37,7 @@
       "input": "horse\r\nlizard\r\ndonkey",
       "output": "donkey, horse, lizard",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": null
     },
     {
@@ -47,7 +47,7 @@
       "input": "cat\r\ncat\r\ncat",
       "output": "cat, cat, cat",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": null
     }
   ]
