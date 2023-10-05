@@ -5,8 +5,8 @@
       "setup": "javac StringComparison.java",
       "run": "java StringComparison",
       "input": "cat\r\ndog\r\nmouse",
-      "output": "cat, dog, mouse",
-      "comparison": "included",
+      "output": "cat, dog, mouse$",
+      "comparison": "regex",
       "timeout": 2,
       "points": null
     },
@@ -15,18 +15,18 @@
       "setup": "javac StringComparison.java",
       "run": "java StringComparison",
       "input": "cat\r\ncatatonic\r\ncatastrophe",
-      "output": "cat, catastrophe, catatonic",
-      "comparison": "included",
+      "output": "cat, catastrophe, catatonic$",
+      "comparison": "regex",
       "timeout": 2,
       "points": null
     },
     {
-      "name": "cat, dog, cat",
+      "name": "horse, donkey, lizard",
       "setup": "javac StringComparison.java",
       "run": "java StringComparison",
-      "input": "cat\r\ndog\r\ncat",
-      "output": "cat, cat, dog",
-      "comparison": "included",
+      "input": "horse\r\ndonkey\r\nlizard",
+      "output": "donkey, horse, lizard$",
+      "comparison": "regex",
       "timeout": 2,
       "points": null
     },
@@ -35,8 +35,88 @@
       "setup": "javac StringComparison.java",
       "run": "java StringComparison",
       "input": "horse\r\nlizard\r\ndonkey",
-      "output": "donkey, horse, lizard",
-      "comparison": "included",
+      "output": "donkey, horse, lizard$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "lizard, donkey, horse",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "lizard\r\ndonkey\r\nhorse",
+      "output": "donkey, horse, lizard$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "lizard, horse, donkey",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "lizard\r\nhorse\r\ndonkey",
+      "output": "donkey, horse, lizard$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "cat, cat, dog",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\ncat\r\ndog",
+      "output": "cat, cat, dog$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "cat, cat, apple",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\ncat\r\napple",
+      "output": "apple, cat, cat$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "cat, dog, cat",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\ndog\r\ncat",
+      "output": "cat, cat, dog$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "cat, apple, cat",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "cat\r\napple\r\ncat",
+      "output": "apple, cat, cat$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "apple, cat, cat",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "apple\r\ncat\r\ncat",
+      "output": "apple, cat, cat$",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "dog, cat, cat",
+      "setup": "javac StringComparison.java",
+      "run": "java StringComparison",
+      "input": "dog\r\ncat\r\ncat",
+      "output": "cat, cat, dog$",
+      "comparison": "regex",
       "timeout": 2,
       "points": null
     },
@@ -45,8 +125,8 @@
       "setup": "javac StringComparison.java",
       "run": "java StringComparison",
       "input": "cat\r\ncat\r\ncat",
-      "output": "cat, cat, cat",
-      "comparison": "included",
+      "output": "cat, cat, cat$",
+      "comparison": "regex",
       "timeout": 2,
       "points": null
     }
